@@ -10,22 +10,6 @@ How it works
 
 Datasheet for the chip is here: http://www.zimmers.net/anonftp/pub/cbm/documents/chipdata/2364.zip
 
-Basically, here is the pinout:
-`
-A7 -|---|- Vcc
-A6 -|	|- A8
-A5 -|	|- A9
-A4 -|	|- A12
-A3 -|	|- CS
-A2 -|	|- A10
-A1 -|	|- A11
-A0 -|	|- O8
-O1 -|	|- O7
-O2 -|	|- O6
-O3 -|	|- O5
-GND-|---|- O4
-`
-
 The kernel PROM has 8kbytes of storage, and 13 address pins (A0-A12). These pins are hooked up to my PIC18F4520 like so:
 
 A0 -> RD0... (the rest in order)
